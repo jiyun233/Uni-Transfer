@@ -35,7 +35,7 @@ const menuOptions = computed<MenuOption[]>(() =>
     <div class="topbar-left">
       <NIcon :size="22" :component="CubeOutline" color="var(--n-color-target)" />
       <NText strong style="font-size: 16px; letter-spacing: 0.5px">
-        Transfer
+        Uni-Transfer
       </NText>
     </div>
 

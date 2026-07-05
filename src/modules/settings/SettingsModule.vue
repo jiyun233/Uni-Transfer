@@ -39,7 +39,7 @@ const { theme, toggle } = useTheme()
         <NSpace vertical :size="8">
           <div class="setting-row">
             <NText depth="3">应用名称</NText>
-            <NText strong>Transfer</NText>
+            <NText strong>Uni-Transfer</NText>
           </div>
           <NDivider style="margin: 4px 0" />
           <div class="setting-row">
