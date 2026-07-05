@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo doc *)",
+      "WebSearch",
+      "WebFetch(domain:docs.rs)",
+      "WebFetch(domain:github.com)",
+      "Bash(cd \"c:\\\\Users\\\\MoeNeko\\\\Documents\\\\LocalProject\\\\uni-transfer\" && find ~/.cargo/registry -path \"*/libunftp-0.23*/auth*\" -type f 2>/dev/null | head -10)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/**)",
+      "Bash(find ~/.cargo/registry -path \"*/unftp-core*/auth*\" -type f 2>/dev/null | head -10)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/auth/**)",
+      "Bash(find ~/.cargo/registry -path \"*/libunftp-0.23*/src/server*\" -name \"*.rs\" -type f 2>/dev/null)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/server/ftpserver/**)",
+      "Bash(find ~/.cargo/registry -path \"*/libunftp-0.23*/src/server/ftpserver.rs\" -type f 2>/dev/null)",
+      "Bash(cargo check *)",
+      "Bash(grep -rn \"trait.*Listener\\\\|DataListener\\\\|PresenceListener\" ~/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/ 2>/dev/null | head -20)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/**)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/notification/**)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/server/**)",
+      "Read(//c/Users/MoeNeko/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libunftp-0.23.0/src/server/controlchan/commands/**)"
+    ]
+  }
+}
